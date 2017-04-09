@@ -5,8 +5,8 @@
 #ifndef TAGMO_MAIN_C_H
 #define TAGMO_MAIN_C_H
 
-#include <openssl/evp.h>
-#include <openssl/hmac.h>
+#include <evp.h>
+#include <hmac.h>
 
 void test() {
     EVP_CIPHER_CTX ctx;

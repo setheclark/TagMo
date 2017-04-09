@@ -23,7 +23,7 @@
 #include "nfc3d/drbg.h"
 #include <assert.h>
 #include <string.h>
-#include <openssl/evp.h>
+#include "openssl/evp.h"
 
 void nfc3d_drbg_init(nfc3d_drbg_ctx * ctx, const uint8_t * hmacKey, size_t hmacKeySize, const uint8_t * seed, size_t seedSize) {
 	assert(ctx != NULL);
